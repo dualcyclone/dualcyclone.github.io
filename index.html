@@ -3,39 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eregion</title>
+  <title>Eregion Consulting</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
-    
+
     body {
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
       height: 100vh;
       margin: 0;
       background-color: #fff;
+      font-family: Arial, sans-serif;
+      color: #3A4A6B;
+      text-align: center;
     }
 
     .container {
       display: flex;
       align-items: center;
+      margin-bottom: 20px;
     }
 
     .text-container {
       display: flex;
       flex-direction: column;
-      align-items: center; /* Center-aligns the title and tagline */
+      align-items: center;
     }
 
     img {
-      max-width: 200px; /* Adjust this as needed */
+      max-width: 200px; /* Adjust as needed */
       height: auto;
+      margin-right: 20px;
     }
 
     h1 {
       font-family: "Vollkorn SC", serif;
       font-weight: 400;
-      font-style: normal;
       color: #3A4A6B;
       margin: 0;
       font-size: 4rem;
@@ -44,10 +49,26 @@
     .tagline {
       font-family: "Vollkorn SC", serif;
       font-weight: 400;
-      font-style: normal;
       color: #3A4A6B;
       font-size: 1.5rem;
       margin-top: 0;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .linkedin-button {
+      margin-top: 20px;
+    }
+
+    .linkedin-button img {
+      width: 30px;
+      height: auto;
     }
   </style>
 </head>
@@ -58,6 +79,13 @@
       <h1>eregion</h1>
       <p class="tagline">forging legendary ideas</p>
     </div>
+  </div>
+  
+  <div class="content">
+    <p>At Eregion Consulting, we specialize in crafting high-quality, scalable software solutions that align with your business goals.</p>
+    <p>With over a decade of experience in leading-edge software development and a strong foundation in cloud services, we provide tailored consulting to optimize and elevate your technology infrastructure.</p>
+    <p>Our services include cloud architecture, full-stack development, front-end engineering, and agile project management.</p>
+    <p>We bring legendary ideas to life, blending technical skill with a commitment to delivering secure, innovative, and impactful solutions.</p>
   </div>
 </body>
 </html>
