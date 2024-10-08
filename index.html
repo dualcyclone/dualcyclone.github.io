@@ -14,6 +14,26 @@
       height: 100vh;
       margin: 0;
       background-color: #fff;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .title-container {
+      display: flex;
+      align-items: center;
+    }
+
+    img {
+      max-width: 100px; /* Adjust this as needed */
+      height: auto;
+      margin-right: 20px;
     }
 
     h1 {
@@ -21,10 +41,26 @@
       font-weight: 400;
       font-style: normal;
       color: #3A4A6B;
+      margin: 0;
+    }
+
+    .tagline {
+      font-family: "Vollkorn SC", serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #3A4A6B;
+      font-size: 1.2rem;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>eregion</h1>
+  <div class="container">
+    <div class="title-container">
+      <img src="eregion-logo.svg" alt="Eregion Logo">
+      <h1>eregion</h1>
+    </div>
+    <p class="tagline">Forging legendary ideas</p>
+  </div>
 </body>
 </html>
